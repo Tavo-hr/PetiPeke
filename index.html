@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardería PetiPeke | Creciendo Felices Juntos - Chala, Caravelí</title>
+  
+  <!-- Meta SEO & Social -->
+  <meta name="description" content="Guardería PetiPeke en Chala, Caravelí. Cuidado integral y estimulación temprana para tus pequeños con personal amoroso y espacios seguros. ¡Creciendo Felices Juntos!">
+  <meta name="keywords" content="Guardería PetiPeke, Guardería en Chala, Caravelí, estimulación temprana, cuidado infantil Arequipa, nido, cuna jardín">
+  <meta property="og:title" content="Guardería PetiPeke | Creciendo Felices Juntos">
+  <meta property="og:description" content="Un espacio cálido, seguro y lleno de color para crecer felices. Cuidado integral y estimulación temprana en Chala, Caravelí.">
+  <meta property="og:image" content="assets/portada.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+
+  <!-- Google Fonts: Fredoka & Quicksand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar" aria-label="Información rápida">
+    <div class="container top-bar__content">
+      <div class="top-bar__location">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>Chala, Caravelí, Arequipa, Perú</span>
+      </div>
+      <div class="top-bar__info">
+        <span class="top-bar__hours">
+          <i class="fa-regular fa-clock" aria-hidden="true"></i> Lun - Vie: 8:30 am - 6:00 pm
+        </span>
+        <a href="https://wa.me/51961489617" class="top-bar__phone" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> +51 961 489 617
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navbar -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-container">
+      <a href="#inicio" class="brand" aria-label="Guardería PetiPeke - Inicio">
+        <img src="assets/logo.jpg" alt="Logo de Guardería PetiPeke" class="brand__logo">
+        <div class="brand__text">
+          <span class="brand__name">PetiPeke</span>
+          <span class="brand__type">Guardería & Centro Infantil</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" id="navMenu" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#inicio" class="nav__link active">Inicio</a></li>
+          <li class="nav__item"><a href="#conocenos" class="nav__link">Conócenos</a></li>
+          <li class="nav__item"><a href="#pilares" class="nav__link">3 Pilares</a></li>
+          <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li class="nav__item"><a href="#planes" class="nav__link">Planes</a></li>
+          <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a href="#contacto" class="btn btn--coral btn--sm header-cta">
+            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Agendar Visita
+          </a>
+        </div>
+      </nav>
+
+      <!-- Hamburger Button for Mobile -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: Hero / Portada -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="badge-pill">
+              <i class="fa-solid fa-heart" aria-hidden="true"></i>
+              <span>Centro de Atención y Cuidado Infantil</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Creciendo <span class="highlight-coral">Felices</span> <span class="highlight-cyan">Juntos</span>
+            </h1>
+
+            <p class="hero-lead">
+              <strong>Un espacio seguro, cálido y lleno de color para crecer felices.</strong>
+            </p>
+
+            <p class="hero-desc">
+              Un espacio cálido donde los más pequeños aprenden, juegan y crecen cada día. Nos dedicamos al cuidado integral y estimulación temprana de tus hijos con personal altamente capacitado y amoroso.
+            </p>
+
+            <div class="hero-highlights">
+              <div class="hero-tag">
+                <span class="hero-tag__icon bg-yellow-soft"><i class="fa-solid fa-sun"></i></span>
+                <span>Estimulación Oportuna</span>
+              </div>
+              <div class="hero-tag">
+                <span class="hero-tag__icon bg-green-soft"><i class="fa-solid fa-shield-heart"></i></span>
+                <span>100% Seguro y Acolchado</span>
+              </div>
+              <div class="hero-tag">
+                <span class="hero-tag__icon bg-cyan-soft"><i class="fa-solid fa-map-pin"></i></span>
+                <span>Chala, Caravelí</span>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#planes" class="btn btn--coral btn--lg">
+                <i class="fa-solid fa-shapes" aria-hidden="true"></i> Conocer Planes
+              </a>
+              <a href="https://wa.me/51961489617?text=Hola%20Guarder%C3%ADa%20PetiPeke,%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20inscripciones" 
+                 class="btn btn--whatsapp btn--lg" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Escríbenos por WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Media: Portada oficial -->
+          <div class="hero-media">
+            <div class="hero-banner-wrapper">
+              <img src="assets/portada.jpg" 
+                   alt="Portada oficial de Guardería PetiPeke - Niños jugando felices y lema Creciendo Felices Juntos" 
+                   class="hero-banner-img"
+                   fetchpriority="high">
+              <div class="floating-badge floating-badge--top">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <span>¡Inscripciones Abiertas!</span>
+              </div>
+              <div class="floating-badge floating-badge--bottom">
+                <i class="fa-solid fa-children" aria-hidden="true"></i>
+                <span>Atención con Amor y Vocación</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Decorative Wave Bottom -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path d="M0,32L60,42.7C120,53,240,75,360,74.7C480,75,600,53,720,48C840,43,960,53,1080,58.7C1200,64,1320,64,1380,64L1440,64L1440,100L1380,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Section 2: Conócenos Mejor -->
+    <section class="section about-section" id="conocenos">
+      <div class="container">
+        <div class="about-grid">
+          
+          <div class="about-visual">
+            <div class="about-card-badge">
+              <div class="logo-ring">
+                <img src="assets/logo.jpg" alt="Insignia oficial PetiPeke" class="about-logo-img">
+              </div>
+              <div class="about-stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedicación & Cuidado Infantil</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="section-tag section-tag--cyan">
+              <i class="fa-solid fa-smile-beam"></i> Conócenos Mejor
+            </div>
+            <h2 class="section-title">Bienvenidos a <span class="highlight-indigo">Guardería PetiPeke</span></h2>
+            
+            <p class="about-paragraph">
+              En <strong>Guardería PetiPeke</strong> nos dedicamos al cuidado integral y la estimulación temprana de tus hijos. Contamos con un ambiente diseñado para despertar su curiosidad, fomentar su creatividad y promover valores de convivencia, todo bajo el cuidado de personal capacitado y comprometido con el bienestar infantil.
+            </p>
+
+            <p class="about-paragraph">
+              Abrimos las puertas a un lugar lleno de sonrisas, aprendizaje y momentos inolvidables para los consentidos de la casa. Queremos ser el <strong>aliado de confianza para las familias de Chala, Caravelí y zonas aledañas</strong>, brindando un espacio cómodo y protector donde cada pequeño pueda explorar el mundo a su propio ritmo.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-item__icon bg-cyan"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                <div class="feature-item__text">
+                  <h4>Trato Afectivo & Cálido</h4>
+                  <p>Acompañamiento respetuoso enfocado en su bienestar emocional.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item__icon bg-yellow"><i class="fa-solid fa-puzzle-piece"></i></div>
+                <div class="feature-item__text">
+                  <h4>Curiosidad & Creatividad</h4>
+                  <p>Dinámicas diseñadas para su desarrollo cognitivo y social.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a href="#contacto" class="btn btn--indigo">
+                <i class="fa-solid fa-envelope-open-text"></i> Solicitar Información
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Nuestras Fortalezas: Los 3 Pilares -->
+    <section class="section pillars-section" id="pilares">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag section-tag--yellow">
+            <i class="fa-solid fa-trophy"></i> Nuestras Fortalezas
+          </div>
+          <h2 class="section-title">Los <span class="highlight-coral">3 Pilares</span> de PetiPeke</h2>
+          <p class="section-subtitle">
+            Nos enfocamos en brindar un desarrollo armónico, seguro y lleno de cariño para cada etapa de tu hijo.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          
+          <!-- Pilar A -->
+          <article class="pillar-card pillar-card--indigo">
+            <div class="pillar-card__header">
+              <div class="pillar-card__icon">
+                <i class="fa-solid fa-user-nurse"></i>
+              </div>
+              <span class="pillar-card__letter">Pilar A</span>
+            </div>
+            <h3 class="pillar-card__title">Personal Capacitado y Amoroso</h3>
+            <p class="pillar-card__desc">
+              Docentes y auxiliares con verdadera vocación de servicio, paciencia infinita y entrenamiento continuo en primeros auxilios y trato afectivo.
+            </p>
+            <ul class="pillar-card__list">
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Atención personalizada y paciente</span>
+              </li>
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Acompañamiento constante y cariñoso</span>
+              </li>
+            </ul>
+            <div class="pillar-card__footer-tag">
+              <i class="fa-solid fa-heart"></i> Vocación & Trato Cálido
+            </div>
+          </article>
+
+          <!-- Pilar B -->
+          <article class="pillar-card pillar-card--green">
+            <div class="pillar-card__header">
+              <div class="pillar-card__icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="pillar-card__letter">Pilar B</span>
+            </div>
+            <h3 class="pillar-card__title">Espacios Seguros y Adaptados</h3>
+            <p class="pillar-card__desc">
+              Ambientes acondicionados con materiales no tóxicos, esquinas protegidas, áreas de juego acolchadas y estricta higiene constante.
+            </p>
+            <ul class="pillar-card__list">
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Pisos amortiguados anti-impacto</span>
+              </li>
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Áreas delimitadas por rangos de edad</span>
+              </li>
+            </ul>
+            <div class="pillar-card__footer-tag">
+              <i class="fa-solid fa-broom"></i> Higiene Rigurosa Diaria
+            </div>
+          </article>
+
+          <!-- Pilar C -->
+          <article class="pillar-card pillar-card--cyan">
+            <div class="pillar-card__header">
+              <div class="pillar-card__icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <span class="pillar-card__letter">Pilar C</span>
+            </div>
+            <h3 class="pillar-card__title">Estimulación Temprana</h3>
+            <p class="pillar-card__desc">
+              Desarrollamos actividades psicomotrices, cognitivas y sensoriales para potenciar las habilidades únicas de tu pequeño desde sus primeros pasos.
+            </p>
+            <ul class="pillar-card__list">
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Juegos de motricidad fina y gruesa</span>
+              </li>
+              <li>
+                <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+                <span>Desarrollo del lenguaje y socialización</span>
+              </li>
+            </ul>
+            <div class="pillar-card__footer-tag">
+              <i class="fa-solid fa-seedling"></i> Potencial en Cada Paso
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 4: Nuestra Oferta Educativa y de Cuidado -->
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag section-tag--coral">
+            <i class="fa-solid fa-cubes-stacked"></i> Servicios Principales
+          </div>
+          <h2 class="section-title">Nuestra Oferta Educativa <span class="highlight-cyan">& de Cuidado</span></h2>
+          <p class="section-subtitle">
+            Pensados para cubrir todas las necesidades de aprendizaje, nutrición y esparcimiento de tus consentidos.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Servicio A -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-coral">
+              <i class="fa-solid fa-business-time"></i>
+            </div>
+            <h3 class="service-card__title">Cuidado Diario y Horario Flexible</h3>
+            <p class="service-card__desc">
+              Planes por hora, medio día o jornada completa adaptados al ritmo de trabajo y responsabilidades de cada familia.
+            </p>
+            <div class="service-card__badge">Adaptado a tu rutina</div>
+          </div>
+
+          <!-- Servicio B -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-yellow">
+              <i class="fa-solid fa-baby"></i>
+            </div>
+            <h3 class="service-card__title">Estimulación Temprana</h3>
+            <p class="service-card__desc">
+              Sesiones guiadas para desarrollar habilidades sensoriales, coordinación motriz y fortalecer la autoconfianza del niño.
+            </p>
+            <div class="service-card__badge">Sensorial y motriz</div>
+          </div>
+
+          <!-- Servicio C -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-cyan">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="service-card__title">Talleres de Arte, Música y Juego Libre</h3>
+            <p class="service-card__desc">
+              Expresión libre con pintura no tóxica, cantos infantiles, juegos rítmicos y dramatización que despiertan su creatividad.
+            </p>
+            <div class="service-card__badge">Creatividad sin límites</div>
+          </div>
+
+          <!-- Servicio D -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-green">
+              <i class="fa-solid fa-apple-whole"></i>
+            </div>
+            <h3 class="service-card__title">Alimentación Balanceada y Supervisada</h3>
+            <p class="service-card__desc">
+              Menús saludables adaptados a cada etapa, fomentando hábitos de higiene y buenos modales a la hora de comer.
+            </p>
+            <div class="service-card__badge">Hábitos saludables</div>
+          </div>
+
+          <!-- Servicio E -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-indigo">
+              <i class="fa-solid fa-pump-soap"></i>
+            </div>
+            <h3 class="service-card__title">Espacios Adaptados, Limpios y Seguros</h3>
+            <p class="service-card__desc">
+              Infraestructura higienizada diariamente, juguetes lavables y ventilación adecuada para garantizar un entorno protegido.
+            </p>
+            <div class="service-card__badge">Máxima bioseguridad</div>
+          </div>
+
+          <!-- Servicio F -->
+          <div class="service-card">
+            <div class="service-card__icon-box icon-coral">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3 class="service-card__title">Socialización y Valores de Convivencia</h3>
+            <p class="service-card__desc">
+              Aprender a compartir, respetar a sus compañeros y trabajar en equipo en un entorno libre de presiones y lleno de empatía.
+            </p>
+            <div class="service-card__badge">Amistad y respeto</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 5: Opciones de Inscripción -->
+    <section class="section plans-section" id="planes">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag section-tag--green">
+            <i class="fa-solid fa-calendar-days"></i> Horarios y Modalidades
+          </div>
+          <h2 class="section-title">Opciones de <span class="highlight-indigo">Inscripción</span></h2>
+          <p class="section-subtitle">
+            Elige el plan que mejor responda a las actividades diarias de tu familia en Chala.
+          </p>
+        </div>
+
+        <div class="plans-grid">
+          
+          <!-- Plan Flexible -->
+          <div class="plan-card">
+            <div class="plan-card__header">
+              <span class="plan-badge">Opción A</span>
+              <h3 class="plan-name">Plan Flexible</h3>
+              <p class="plan-subtitle">Turno Mañana / Tarde</p>
+            </div>
+            <p class="plan-description">
+              Ideal para estimulación y juegos supervisados por horas o medio día.
+            </p>
+            <div class="plan-schedule">
+              <i class="fa-regular fa-clock"></i>
+              <div>
+                <strong>Turno Mañana:</strong> 8:00 am a 1:00 pm<br>
+                <strong>Turno Tarde:</strong> 1:00 pm a 6:00 pm
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Estimulación temprana incluida</li>
+              <li><i class="fa-solid fa-circle-check"></i> Talleres de arte y música</li>
+              <li><i class="fa-solid fa-circle-check"></i> Lonchera supervisada</li>
+            </ul>
+            <div class="plan-cta">
+              <button class="btn btn--outline-indigo btn--block select-plan-btn" data-plan="Plan Flexible (Turno Mañana / Tarde)">
+                Elegir este Plan
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan Integral (Destacado) -->
+          <div class="plan-card plan-card--featured">
+            <div class="featured-ribbon">Recomendado</div>
+            <div class="plan-card__header">
+              <span class="plan-badge plan-badge--featured">Opción B</span>
+              <h3 class="plan-name">Plan Integral</h3>
+              <p class="plan-subtitle">Jornada Completa</p>
+            </div>
+            <p class="plan-description">
+              Tranquilidad absoluta durante todo tu día laboral en Chala.
+            </p>
+            <div class="plan-schedule">
+              <i class="fa-solid fa-sun"></i>
+              <div>
+                <strong>Horario:</strong> Lunes a Viernes<br>
+                <span>Jornada Completa Continua</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Todos los talleres y rutinas pedagógicas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Descanso programado y siesta cómoda</li>
+              <li><i class="fa-solid fa-circle-check"></i> Alimentación supervisada e higiene</li>
+              <li><i class="fa-solid fa-circle-check"></i> Informe de progreso mensual</li>
+            </ul>
+            <div class="plan-cta">
+              <button class="btn btn--coral btn--block select-plan-btn" data-plan="Plan Integral (Jornada Completa)">
+                Elegir este Plan
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan Eventual -->
+          <div class="plan-card">
+            <div class="plan-card__header">
+              <span class="plan-badge">Opción C</span>
+              <h3 class="plan-name">Plan Eventual</h3>
+              <p class="plan-subtitle">PetiPeke Por Horas</p>
+            </div>
+            <p class="plan-description">
+              Para emergencias, citas médicas o gestiones puntuales de los padres.
+            </p>
+            <div class="plan-schedule">
+              <i class="fa-regular fa-hourglass-half"></i>
+              <div>
+                <strong>Horario:</strong> Según requerimiento previo<br>
+                <span>Flexibilidad y disponibilidad inmediata</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Atención cariñosa inmediata</li>
+              <li><i class="fa-solid fa-circle-check"></i> Espacio de juegos libres y seguros</li>
+              <li><i class="fa-solid fa-circle-check"></i> Comunicación directa por WhatsApp</li>
+            </ul>
+            <div class="plan-cta">
+              <button class="btn btn--outline-indigo btn--block select-plan-btn" data-plan="Plan Eventual (PetiPeke Por Horas)">
+                Elegir este Plan
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 6: Estamos Listos Para Recibirte & Formulario -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag section-tag--indigo">
+            <i class="fa-solid fa-door-open"></i> Estamos Listos Para Recibirte
+          </div>
+          <h2 class="section-title">Ponte en Contacto con <span class="highlight-coral">PetiPeke</span></h2>
+          <p class="section-subtitle">
+            Contáctanos para consultar sobre inscripciones, horarios y agendar una visita a nuestras instalaciones. ¡Estamos felices de recibirte!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            
+            <div class="visit-banner">
+              <div class="visit-banner__icon">
+                <i class="fa-solid fa-child-reaching"></i>
+              </div>
+              <div class="visit-banner__text">
+                <h3>¿Deseas visitar nuestras instalaciones?</h3>
+                <p>Agenda una cita personalizada sin compromiso para conocer nuestras salas adaptadas y al equipo de maestras.</p>
+              </div>
+            </div>
+
+            <div class="info-items-list">
+              
+              <!-- Ubicación -->
+              <div class="info-box">
+                <div class="info-box__icon icon-green">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="info-box__details">
+                  <h4>Ubicación Local</h4>
+                  <p>Chala, Caravelí, Arequipa, Perú.</p>
+                  <small>Cerca de zonas residenciales y comerciales</small>
+                </div>
+              </div>
+
+              <!-- WhatsApp -->
+              <div class="info-box">
+                <div class="info-box__icon icon-cyan">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="info-box__details">
+                  <h4>Atención e Informes por WhatsApp</h4>
+                  <a href="https://wa.me/51961489617" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    +51 961 489 617
+                  </a>
+                  <small>Respuesta rápida y personalizada</small>
+                </div>
+              </div>
+
+              <!-- Correo -->
+              <div class="info-box">
+                <div class="info-box__icon icon-coral">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="info-box__details">
+                  <h4>Correo Electrónico</h4>
+                  <a href="mailto:petipeke.guarderia@gmail.com" class="contact-link">
+                    petipeke.guarderia@gmail.com
+                  </a>
+                  <small>Escríbenos para consultas institucionales</small>
+                </div>
+              </div>
+
+              <!-- Horario -->
+              <div class="info-box">
+                <div class="info-box__icon icon-yellow">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <div class="info-box__details">
+                  <h4>Horario de Atención e Informes</h4>
+                  <p>Lunes a Viernes de 8:30 am a 6:00 pm</p>
+                  <small>Atención presencial y virtual</small>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Formulario de Admisión e Informes -->
+          <div class="contact-form-panel">
+            <div class="form-wrapper">
+              <div class="form-header">
+                <h3>Formulario de Admisión e Informes</h3>
+                <p>Completa tus datos y te responderemos en el menor tiempo posible.</p>
+              </div>
+
+              <form id="admissionForm" class="admission-form" novalidate>
+                
+                <!-- Nombre del Padre/Madre -->
+                <div class="form-group">
+                  <label for="parentName" class="form-label">
+                    <i class="fa-solid fa-user"></i> Nombre del Padre / Madre / Apoderado *
+                  </label>
+                  <input type="text" id="parentName" name="parentName" class="form-input" 
+                         placeholder="Ej. María Flores o Juan Pérez" required>
+                  <span class="form-error" id="parentNameError">Por favor, ingresa tu nombre completo.</span>
+                </div>
+
+                <div class="form-row">
+                  <!-- Nombre del Pequeño -->
+                  <div class="form-group">
+                    <label for="childName" class="form-label">
+                      <i class="fa-solid fa-child"></i> Nombre de tu Pequeño(a) *
+                    </label>
+                    <input type="text" id="childName" name="childName" class="form-input" 
+                           placeholder="Ej. Lucas o Sofía" required>
+                    <span class="form-error" id="childNameError">Ingresa el nombre de tu hijo(a).</span>
+                  </div>
+
+                  <!-- Edad del Niño -->
+                  <div class="form-group">
+                    <label for="childAge" class="form-label">
+                      <i class="fa-solid fa-cake-candles"></i> Edad del Niño(a) *
+                    </label>
+                    <input type="text" id="childAge" name="childAge" class="form-input" 
+                           placeholder="Ej. 1 año y 8 meses" required>
+                    <span class="form-error" id="childAgeError">Ingresa la edad aproximada.</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <!-- Teléfono / WhatsApp -->
+                  <div class="form-group">
+                    <label for="phone" class="form-label">
+                      <i class="fa-brands fa-whatsapp"></i> Teléfono / WhatsApp de Contacto *
+                    </label>
+                    <input type="tel" id="phone" name="phone" class="form-input" 
+                           placeholder="Ej. +51 987 654 321" required>
+                    <span class="form-error" id="phoneError">Ingresa un número telefónico válido.</span>
+                  </div>
+
+                  <!-- Servicio de Interés -->
+                  <div class="form-group">
+                    <label for="serviceInterest" class="form-label">
+                      <i class="fa-solid fa-clipboard-list"></i> Servicio de Interés *
+                    </label>
+                    <select id="serviceInterest" name="serviceInterest" class="form-select" required>
+                      <option value="">Selecciona una opción...</option>
+                      <option value="Plan Flexible (Turno Mañana / Tarde)">Plan Flexible (Turno Mañana / Tarde)</option>
+                      <option value="Plan Integral (Jornada Completa)">Plan Integral (Jornada Completa)</option>
+                      <option value="Plan Eventual (PetiPeke Por Horas)">Plan Eventual (PetiPeke Por Horas)</option>
+                      <option value="Estimulación Temprana">Estimulación Temprana</option>
+                      <option value="Talleres de Arte y Música">Talleres de Arte y Música</option>
+                      <option value="Visita Guiada a Instalaciones">Visita Guiada a Instalaciones</option>
+                      <option value="Otra Consulta">Otra Consulta</option>
+                    </select>
+                    <span class="form-error" id="serviceInterestError">Por favor selecciona un servicio de interés.</span>
+                  </div>
+                </div>
+
+                <!-- Mensaje o Consulta Específica -->
+                <div class="form-group">
+                  <label for="message" class="form-label">
+                    <i class="fa-solid fa-comment-dots"></i> Mensaje o Consulta Específica
+                  </label>
+                  <textarea id="message" name="message" class="form-textarea" rows="4" 
+                            placeholder="Cuéntanos alguna necesidad especial, dudas sobre el horario o si deseas agendar un día de visita..."></textarea>
+                </div>
+
+                <!-- Botones de Envíos -->
+                <div class="form-actions">
+                  <button type="submit" class="btn btn--coral btn--block btn--lg" id="submitBtn">
+                    <i class="fa-solid fa-paper-plane"></i> Enviar Formulario de Admisión
+                  </button>
+                  <button type="button" class="btn btn--whatsapp btn--block" id="whatsappSubmitBtn">
+                    <i class="fa-brands fa-whatsapp"></i> Enviar Directo a WhatsApp (+51 961 489 617)
+                  </button>
+                </div>
+
+                <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="brand-footer-logo">
+            <img src="assets/logo.jpg" alt="Logo de Guardería PetiPeke" class="footer-logo-img">
+            <div>
+              <span class="footer-brand-title">Guardería PetiPeke</span>
+              <span class="footer-brand-slogan">Creciendo Felices Juntos</span>
+            </div>
+          </div>
+          <p class="footer-text">
+            Un espacio seguro, cálido y lleno de color en Chala, Caravelí. Acompañamos a tus hijos con amor, estimulación temprana y máxima vocación.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conocenos">Conócenos</a></li>
+            <li><a href="#pilares">3 Pilares</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#planes">Planes de Cuidado</a></li>
+            <li><a href="#contacto">Contacto & Admisión</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Datos de Contacto</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Chala, Caravelí, Arequipa, Perú</p>
+          <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/51961489617" target="_blank" rel="noopener noreferrer">+51 961 489 617</a></p>
+          <p><i class="fa-regular fa-envelope"></i> <a href="mailto:petipeke.guarderia@gmail.com">petipeke.guarderia@gmail.com</a></p>
+          <p><i class="fa-regular fa-clock"></i> Lun a Vie: 8:30 am a 6:00 pm</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Guardería PetiPeke. Todos los derechos reservados. Chala, Caravelí, Perú.</p>
+        <p class="footer-motto">"Creciendo Felices Juntos" ☀️🌱👧🧒</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/51961489617?text=Hola%20Guarder%C3%ADa%20PetiPeke,%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" 
+     class="floating-whatsapp" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Abrir chat de WhatsApp con Guardería PetiPeke">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    <span class="floating-whatsapp__tooltip">¡Escríbenos por WhatsApp!</span>
+  </a>
+
+  <!-- Custom JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
